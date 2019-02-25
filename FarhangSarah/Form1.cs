@@ -19,7 +19,10 @@ namespace FarhangSarah
 
         private void txtSearch_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if(e.KeyCode== Keys.Enter)
+            {
+                MessageBox.Show("Test");
+            }
         }
     }
 }
