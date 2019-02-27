@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace FarhangSarah
 {
-    public partial class Form1 : Form
+    public partial class frmMaterial : Form
     {
-        public Form1()
+        public frmMaterial()
         {
             InitializeComponent();
-        }
-
-        private void txtSearch_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode== Keys.Enter)
-            {
-                MessageBox.Show("Test");
-            }
         }
     }
 }
